@@ -1,0 +1,122 @@
+html,
+body {
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 22px;
+     color: seashell;
+     background-color: black;
+     opacity: .9;
+}
+/* Work styles from background to foreground, top to bottom */
+header {
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    display: fixed;
+}
+
+nav {
+    float: right;
+    margin: 10px 10px;
+}
+
+nav ul li {
+    text-decoration: underline;
+    display: inline-flex;
+    padding: 10px;
+}
+
+h2 {
+    width: 100%;
+    text-align: center;
+}
+
+.logo {
+    height: 50px;
+    margin-left: 10px;
+}
+
+.main   {
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg);
+    display: flex;
+    height: 700px;
+    width: 1000px;
+    align-items: center;
+    text-align: center;
+    margin: 70px auto 0px auto;
+
+}
+/* Middle strip */
+.mission {
+    background-color: black;
+    flex: 1;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+}
+
+.tea {
+    display: inline;
+    margin-top: 69px;
+    width: 1000px;
+    background-color: black;
+    text-align: center;
+}
+
+.selection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+/* Specifically the pictures are affected by this */
+.selection img{
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+}
+
+/*LOCATIONS H2 DOESN'T ALIGN, DON'T KNOW WHY*/
+
+.locations {
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg);
+    height: 700px;
+    width: 1200px;
+    display: flex;
+    flex-direction: column;
+    margin: auto auto;
+    align-items: center;
+    text-align: center;
+}
+
+.locations-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.box {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 300px;
+    height: 300px;
+    margin: 0 20px;
+    opacity: 1;
+}
+
+.end {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.address {
+    text-align: center;
+}
+
+.end p a {
+    color: burlywood;
+    text-align: center;
+}
+
